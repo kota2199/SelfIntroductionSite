@@ -1,0 +1,152 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+div{
+    /* background-image: url(images\jimny1.jpg); */
+    background-color: azure;
+    background-size: cover;
+}
+
+header{
+    height: 80px;
+    line-height: 80px;
+    background-color: rgba(255, 255, 255, 0.356);
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+}
+
+header p{
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+header ul{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    padding: 0 180px;
+}
+
+header li{
+    margin-left: 30px;
+}
+
+a:link, a:visited, a:hover, a:active{
+    color: black;
+    border-bottom: 2px solid;
+}
+
+header a{
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+.subtitle{
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 10px;
+    z-index: 1;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    z-index: 1;
+}
+
+.top{
+    padding-top: 200px;
+}
+
+h2{
+    padding: 50px;
+    padding-top: 100px;
+    padding-left: 600px;
+    font-size: 45px;
+    z-index: 1;
+}
+
+.lefttext{
+    font-size: 35px;
+    padding-left: 600px;
+    text-align: left;
+    line-height: 70px;
+    z-index: 1;
+}
+
+.righttext{
+    font-size: 35px;
+    float: right;
+    text-align: left;
+    padding-right: 450px;
+    padding-top: 70px;
+    line-height: 70px;
+    z-index: 1;
+}
+
+.leftphoto{
+    padding-top: 50px;
+    position: relative;
+    left: 550px;
+    border-radius: 160px 160px 130px 130px;
+    z-index: 1;
+}
+
+.rightphoto{
+    float: right;
+    position: relative;
+    left: -550px;
+    border-radius: 130px;
+    z-index: 1;
+}
+
+.snstitle{
+    padding: 100px;
+    font-size: 55px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.snsimg{
+    text-align: center;
+    padding-bottom: 200px;
+    z-index: 1;
+}
+
+.icons{
+    margin: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+.icons img{
+    width: 100%;
+    transition-duration: 0.5s;
+    z-index: 1;
+
+}
+
+.icons:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    z-index: 1;
+}
