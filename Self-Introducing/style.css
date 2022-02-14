@@ -92,7 +92,8 @@ h2{
     font-size: 35px;
     float: right;
     text-align: left;
-    padding-right: 300;
+    padding-right: 300px;
+    right: auto;
     padding-top: 70px;
     line-height: 70px;
     z-index: 1;
